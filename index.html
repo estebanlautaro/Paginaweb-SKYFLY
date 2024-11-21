@@ -22,15 +22,13 @@
     </header>
 
     <!-- Home Section -->
-    <section id="home">
-        <div class="banner">
-            <div class="banner-content">
-                <h1>Simulador de Vuelo Realista</h1>
-                <p>Proyecto del Año 2024 | SKYFLY</p>
-                <div class="cta-buttons">
-                    <a href="#project" class="btn-primary">Ver Más</a>
-                    <a href="https://github.com/brizuu750/SKYLF" target="_blank" class="btn-secondary">GitHub</a>
-                </div>
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h1>Simulador de Vuelo Realista</h1>
+            <p>Proyecto del Año 2024 | SKYFLY</p>
+            <div class="cta-buttons">
+                <a href="#project" class="btn-primary">Descubre Más</a>
+                <a href="https://github.com/brizuu750/SKYLF" target="_blank" class="btn-secondary">GitHub</a>
             </div>
         </div>
     </section>
@@ -38,152 +36,125 @@
     <!-- About Us Section -->
     <section id="about" class="section-padding">
         <h2>Sobre Nosotros</h2>
+        <p class="intro-text">
+            Somos un equipo multidisciplinario apasionado por la ingeniería y la aviación. Nos unimos para desarrollar un simulador de vuelo único, diseñado para replicar las maniobras y controles de una aeronave tipo Cessna 152. Cada miembro aporta habilidades únicas para crear un sistema avanzado y educativo.
+        </p>
         <div class="team-container">
             <div class="team-member">
                 <img src="images/esteban.jpg" alt="Esteban Lautaro">
                 <h4>Esteban Lautaro</h4>
-                <p>Programación y comunicación de los variadores de frecuencia con los motores, MPU6050 y ESP32.</p>
+                <p>Encargado de la programación y comunicación con los variadores de frecuencia, motores y sensores MPU6050.</p>
             </div>
             <div class="team-member">
                 <img src="images/flores.jpg" alt="Flores Leandro">
                 <h4>Flores Leandro</h4>
-                <p>Programación y comunicación de los variadores de frecuencia con los motores, MPU6050 y ESP32.</p>
+                <p>Especialista en sistemas de comunicación y programación de hardware, trabajando con el ESP32.</p>
             </div>
             <div class="team-member">
                 <img src="images/leiva.jpg" alt="Leiva Santiago">
                 <h4>Leiva Santiago</h4>
-                <p>Programación y comunicación de los variadores de frecuencia con los motores, MPU6050 y ESP32.</p>
+                <p>Desarrollador en el área de integración de variadores de frecuencia con motores y sensores.</p>
             </div>
             <div class="team-member">
                 <img src="images/godoy.jpg" alt="Godoy Baldovino Marco">
                 <h4>Godoy Baldovino Marco</h4>
-                <p>Programación y armado del panel de instrumentos del simulador.</p>
+                <p>Encargado del diseño y programación del panel de instrumentos, garantizando precisión en los datos visualizados.</p>
             </div>
             <div class="team-member">
-                <img src="images/brizuela.jpg" alt="Brizuela Agustin">
-                <h4>Brizuela Agustin</h4>
-                <p>Programación y armado del panel de instrumentos del simulador.</p>
+                <img src="images/brizuela.jpg" alt="Brizuela Agustín">
+                <h4>Brizuela Agustín</h4>
+                <p>Diseñador del panel de control e integración con los sistemas de vuelo del simulador.</p>
             </div>
             <div class="team-member">
                 <img src="images/rubio.jpg" alt="Rubio Santiago">
                 <h4>Rubio Santiago</h4>
-                <p>Descarga y programación de variables del simulador de vuelo para comunicar los instrumentos.</p>
+                <p>Desarrollador en la extracción y programación de variables desde Flight Simulator 2020.</p>
             </div>
             <div class="team-member">
                 <img src="images/meabrio.jpg" alt="Meabrio Lucas">
                 <h4>Meabrio Lucas</h4>
-                <p>Descarga y programación de variables del simulador de vuelo para comunicar los instrumentos.</p>
+                <p>Colaborador en la sincronización de instrumentos virtuales con los controles físicos.</p>
             </div>
             <div class="team-member">
                 <img src="images/romocordoba.jpg" alt="Romocordoba Emiliano">
                 <h4>Romocordoba Emiliano</h4>
-                <p>Mantenimiento y mejoras en la estructura física del simulador.</p>
+                <p>Encargado del mantenimiento, mejoras y seguridad estructural del simulador.</p>
             </div>
-        </div>
-
-        <!-- Team Hours Table -->
-        <div class="team-hours">
-            <h3>Horas Dedicadas</h3>
-            <table>
-                <tr>
-                    <th>Integrante</th>
-                    <th>Horas</th>
-                </tr>
-                <tr>
-                    <td>Esteban Lautaro</td>
-                    <td>120 horas</td>
-                </tr>
-                <tr>
-                    <td>Flores Leandro</td>
-                    <td>100 horas</td>
-                </tr>
-                <tr>
-                    <td>Leiva Santiago</td>
-                    <td>100 horas</td>
-                </tr>
-                <tr>
-                    <td>Godoy Baldovino Marco</td>
-                    <td>90 horas</td>
-                </tr>
-                <tr>
-                    <td>Brizuela Agustin</td>
-                    <td>90 horas</td>
-                </tr>
-                <tr>
-                    <td>Rubio Santiago</td>
-                    <td>80 horas</td>
-                </tr>
-                <tr>
-                    <td>Meabrio Lucas</td>
-                    <td>80 horas</td>
-                </tr>
-                <tr>
-                    <td>Romocordoba Emiliano</td>
-                    <td>70 horas</td>
-                </tr>
-            </table>
         </div>
     </section>
 
     <!-- Project Section -->
     <section id="project" class="section-padding">
         <h2>El Proyecto</h2>
-        <div class="project-details">
-            <p>Este proyecto de Simulador de Vuelo Realista, basado en la cabina del Cessna 152, replica las maniobras y controles de la aeronave mediante la integración de un panel físico de control y un sistema de visualización interactuando con Flight Simulator 2020. Se implementa un circuito de comunicación mediante un Arduino UNO y un ESP32 que permiten gestionar diversos sistemas y enviar comandos a través de variables de comunicación específicas, sincronizando los instrumentos físicos con el simulador virtual. Además, el simulador utiliza un sistema de control de motores con variadores de frecuencia y sensor de movimiento MPU6050 para añadir realismo en el control de vuelo.</p>
-        </div>
-        <div class="project-image">
-            <img src="images/project_overview.jpg" alt="Vista del Proyecto">
+        <p class="project-details">
+            Este simulador replica maniobras y controles de una aeronave Cessna 152, utilizando un panel físico de control y un sistema de visualización interactuando con Flight Simulator 2020. La integración de Arduino UNO, ESP32 y variadores de frecuencia permite un control preciso de los motores y sistemas electrónicos, garantizando una experiencia de vuelo realista.
+        </p>
+        
+        <!-- Espacio para las imágenes de la estructura del simulador -->
+        <div class="project-images">
+            <div class="project-image">
+                <img src="images/estructura1.jpg" alt="Vista 1 de la estructura del simulador">
+            </div>
+            <div class="project-image">
+                <img src="images/estructura2.jpg" alt="Vista 2 de la estructura del simulador">
+            </div>
+            <div class="project-image">
+                <img src="images/estructura3.jpg" alt="Vista 3 de la estructura del simulador">
+            </div>
+            <div class="project-image">
+                <img src="images/estructura4.jpg" alt="Vista 4 de la estructura del simulador">
+            </div>
         </div>
     </section>
+
 
     <!-- Features Section -->
     <section id="features" class="section-padding">
         <h2>Características</h2>
-
-        <!-- Software Feature -->
         <div class="feature">
             <h3>Software</h3>
-            <p>El simulador utiliza el <strong>Arduino IDE</strong> para la programación del <strong>Arduino Uno</strong>, que se encarga de la gestión de los switches del panel y la comunicación con los variadores de frecuencia y otros periféricos. Además, el software permite una sincronización en tiempo real entre los movimientos del simulador y el Flight Simulator 2020.</p>
-            <p><strong>Lenguajes Utilizados:</strong> C/C++ para la programación del Arduino Uno, lo que proporciona un control eficiente y flexible sobre el hardware. Esto permite un manejo preciso de los motores, los instrumentos y la retroalimentación de los sensores.</p>
-            <p>El software también incluye una implementación de algoritmos de control que optimizan la estabilidad y precisión de los movimientos de la estructura, mejorando la experiencia de vuelo realista.</p>
+            <p>
+                Nuestro sistema está basado en <strong>Arduino IDE</strong>, donde se programan los microcontroladores para gestionar los motores, interruptores y sensores. <strong>MobiFlight</strong> asegura que el panel de control interactúe con Flight Simulator 2020, mientras que <strong>Simvar Watcher</strong> nos permite extraer y gestionar variables de vuelo en tiempo real.
+            </p>
         </div>
-
-        <!-- Hardware Feature -->
         <div class="feature">
             <h3>Hardware</h3>
-            <p>El hardware del simulador está compuesto principalmente por un <strong>Arduino Uno</strong>, variadores de frecuencia modelo <strong>GK500-2T1.5B</strong>, y un sensor <strong>MPU6050</strong> para la detección de movimiento. Estos componentes están integrados de manera precisa para permitir el control de la estructura móvil y los sistemas del avión.</p>
-            <p>El <strong>MPU6050</strong> proporciona datos en tiempo real sobre la inclinación y aceleración de la estructura, lo que permite ajustar el movimiento de los motores a través de los variadores de frecuencia, simulando maniobras de vuelo en dos ejes: cabeceo y alabeo.</p>
-            <p>El sistema eléctrico utiliza una fuente de alimentación dedicada para los motores y otra para el Arduino Uno y sus periféricos, asegurando una operación estable y sin interferencias.</p>
+            <p>
+                El simulador utiliza un Arduino UNO para gestionar los interruptores del panel y un ESP32 para controlar variadores de frecuencia GK500-2T1.5B y sensores MPU6050. Cada componente está diseñado para trabajar en conjunto, simulando movimientos precisos y maniobras de vuelo realistas.
+            </p>
         </div>
-
-        <!-- Electrónica Feature -->
         <div class="feature">
             <h3>Electrónica</h3>
-            <p>La electrónica del proyecto se centra en la interacción precisa entre los componentes y el control de los motores. Los variadores de frecuencia están configurados para responder a las órdenes del Arduino Uno, ajustando la velocidad y dirección de los motores según las señales del sensor <strong>MPU6050</strong>.</p>
-            <p>La conexión entre los variadores y el Arduino se realiza mediante el protocolo <strong>RS485</strong>, que es altamente confiable para la transmisión de datos en tiempo real, garantizando que el simulador responda con precisión a las maniobras del piloto.</p>
+            <p>
+                La electrónica incluye el uso de optoacopladores para proteger los circuitos de control y garantizar una comunicación segura entre los motores trifásicos y el sistema central. Los potenciómetros digitales controlan la potencia de los motores, ajustando sus valores de acuerdo a las señales del simulador.
+            </p>
         </div>
-
-        <!-- Estructura Física Feature -->
         <div class="feature">
             <h3>Estructura Física</h3>
-            <p>La estructura física del simulador está diseñada para ofrecer estabilidad y ligereza, utilizando materiales como <strong>aluminio</strong> y <strong>acero</strong>. La plataforma móvil está configurada para moverse en dos ejes, lo que permite simular inclinaciones y maniobras de vuelo con un alto grado de precisión.</p>
-            <p>La estructura está equipada con amortiguadores que suavizan las transiciones de los movimientos bruscos, como turbulencias o cambios de altitud, mejorando la sensación de realismo durante el vuelo.</p>
+            <p>
+                La estructura está fabricada con aluminio y acero para garantizar resistencia y estabilidad. Incluye sistemas de amortiguación que suavizan los movimientos bruscos, ofreciendo una experiencia más realista y cómoda. Además, está pintada con materiales antioxidantes para asegurar su durabilidad.
+            </p>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="section-padding">
         <h2>Contacto</h2>
+        <p class="contact-intro">
+            ¿Interesado en nuestro proyecto? Estamos encantados de responder tus dudas o recibir tus comentarios. Contáctanos a través de los siguientes medios:
+        </p>
         <div class="contact-container">
-            <div>
+            <div class="contact-item">
                 <h3>Correo Electrónico</h3>
                 <p><a href="mailto:skyflyproyect@gmail.com">skyflyproyect@gmail.com</a></p>
-                
+            </div>
+            <div class="contact-item">
                 <h3>WhatsApp</h3>
                 <p><a href="https://wa.me/5491149172740" target="_blank">+54 9 11 4917-2740</a></p>
-                
+            </div>
+            <div class="contact-item">
                 <h3>Instagram</h3>
-                <p><a href="https://www.instagram.com/skylf.proyect?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">@skylf.proyect</a></p>
+                <p><a href="https://www.instagram.com/skylf.proyect" target="_blank">@skylf.proyect</a></p>
             </div>
         </div>
     </section>
@@ -192,6 +163,5 @@
     <footer>
         <p>© 2024 Simulador de Vuelo Realista. Todos los derechos reservados.</p>
     </footer>
-
 </body>
 </html>
